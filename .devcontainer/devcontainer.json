@@ -1,0 +1,18 @@
+{
+    "name": "Assignment2DevContainer",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.autopep8"
+            ]
+        }
+    },
+    //"postCreateCommand": "pip install -r requirements.txt",  // Runs after the container is created, to install dependencies
+    "forwardPorts": [
+        4040
+    ], // List of ports to forward from the container
+    "remoteUser": "vscode" // Default user to run commands as
+}

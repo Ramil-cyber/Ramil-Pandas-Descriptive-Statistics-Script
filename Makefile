@@ -2,7 +2,7 @@ make setup:
 	pip3 install -r requirements.txt
 
 make lint:
-	echo 1
+	pylint main.py
 
 make test:
-	echo 1
+	pytest
