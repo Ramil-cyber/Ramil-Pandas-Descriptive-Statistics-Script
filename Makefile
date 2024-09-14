@@ -1,6 +1,8 @@
-make setup:
+setup:
 	pip3 install -r requirements.txt
-make lint:
+
+lint:
 	pylint main.py
-make test:
+
+test:
 	pytest
