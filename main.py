@@ -9,9 +9,9 @@ def read_csv(file_name):
     file_name
     """
 
-    df = pd.read_csv(file_name)
+    dataframe = pd.read_csv(file_name)
 
-    return df
+    return dataframe
 
 
 def get_descriptive_stats(dataframe):
@@ -31,7 +31,7 @@ def get_histogram(dataframe, col):
     plt.xlabel("Values")
     plt.ylabel("Frequency")
     plt.show()
-    return
+    return True
 
 
 def get_line_graph(dataframe, x_col, y_col):
@@ -47,12 +47,4 @@ def get_line_graph(dataframe, x_col, y_col):
 
     # Show plot
     plt.show()
-    return
-
-
-if __name__ == "__main__":
-    df = read_csv("Health_Sleep_Statistics.csv")
-
-    stats = get_descriptive_stats(df)
-    # get_histogram(df, "Age")
-    get_line_graph(dataframe=df, x_col="Daily Steps", y_col="Calories Burned")
+    return True
