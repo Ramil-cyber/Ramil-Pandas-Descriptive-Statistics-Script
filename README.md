@@ -20,6 +20,15 @@ This project contains a Python script that uses Pandas to compute descriptive st
 - **Line Graph**:  
   ![Line Graph](https://github.com/nogibjj/Ramil-Pandas-Descriptive-Statistics-Script/blob/d74cda0b22c4c8af5769c23a238e6abf22bbbb0f/image/linegraph.png)
 
+
+
+
+## Summary Statistics Report
+
+You can view the detailed summary statistics report generated in PDF format here:
+- [Summary Statistics Report (PDF)](https://github.com/nogibjj/Ramil-Pandas-Descriptive-Statistics-Script/blob/70640a6208f36e5eefc99eb1a5544ae82d2f1eb4/Summary-Statistics.pdf)
+
+
 ## Requirements
 
 - Python 3.x
