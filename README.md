@@ -40,14 +40,14 @@ You can view the detailed summary statistics report generated in PDF format here
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/repo-name.git
-    cd repo-name
+    git clone https://github.com/nogibjj/Ramil-Pandas-Descriptive-Statistics-Script
+    cd Ramil-Pandas-Descriptive-Statistics-Script
     ```
 
 2. **Install required dependencies**:
     You can install all required packages by running:
     ```bash
-    pip install -r requirements.txt
+    make setup
     ```
 
 3. **Run the script**:
