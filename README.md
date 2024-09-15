@@ -12,6 +12,14 @@ This project contains a Python script that uses Pandas to compute descriptive st
 - Produces at least one data visualization (e.g., histogram, boxplot, etc.).
 - Continuous Integration/Continuous Deployment (CI/CD) pipeline integrated with a build status badge.
 
+## Visualizations
+
+- **Histogram**:  
+  ![Histogram](https://github.com/nogibjj/Ramil-Pandas-Descriptive-Statistics-Script/blob/d74cda0b22c4c8af5769c23a238e6abf22bbbb0f/image/histogram.png)
+  
+- **Line Graph**:  
+  ![Line Graph](https://github.com/nogibjj/Ramil-Pandas-Descriptive-Statistics-Script/blob/d74cda0b22c4c8af5769c23a238e6abf22bbbb0f/image/linegraph.png)
+
 ## Requirements
 
 - Python 3.x
